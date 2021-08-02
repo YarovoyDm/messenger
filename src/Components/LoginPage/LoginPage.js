@@ -8,6 +8,7 @@ export function LoginPage(){
         <div className={styles.content}>
             <TelegrtamLogo className={styles.telegramLogo}/>
             <div className={styles.title}>Telegram</div>
+            <div className={styles.subTitle}>Пожалуйста, укажите код страны и свой номер телефона.</div>
         </div>
     </div>
 }

@@ -24,4 +24,13 @@
     line-height: 1.5;
     color: white;
     font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+.subTitle{
+    font-size: 1rem;
+    margin-bottom: 3rem;
+    color: #898989;
+    width: 360px;
+    text-align: center;
 }
