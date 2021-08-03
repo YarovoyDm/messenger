@@ -1,3 +1,10 @@
+.usersWrapper {
+    width: 310px;
+    background: rgba(33, 33, 33, 1);
+    height: 100%;
+    overflow: scroll;
+}
+
 .loginPage{
     height: 100vh;
     width: 100%;
@@ -34,3 +41,4 @@
     width: 360px;
     text-align: center;
 }
+

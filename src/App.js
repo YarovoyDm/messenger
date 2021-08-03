@@ -6,8 +6,8 @@ import {
   Link
 } from "react-router-dom";
 import './App.css';
-import { LoginPage } from './Components/LoginPage/LoginPage';
-import { DialogsPage } from './Components/DialogsPage/DialogsPage';
+import { LoginPage } from './Containers/LoginPage/LoginPage';
+import { DialogsPage } from './Containers/DialogsPage/DialogsPage';
 
 function App() {
   return (

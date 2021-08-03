@@ -1,0 +1,68 @@
+.userContainer {
+    background: rgba(33, 33, 33, 1);
+    border: 5px solid rgba(33, 33, 33, 1);
+    border-radius: 20px;
+    display: flex;
+    margin: 0;
+    color: rgba(144, 144, 144, 1);
+}
+
+.userContainer:hover {
+    cursor: pointer;
+    background: rgba(44,44,44,1)
+}
+
+.userContainer:active{
+    background: #8378db;
+    color: white;
+}
+
+.userAva {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%
+}
+
+.dialogsBody {
+    width: 230px;
+    margin-top: 0;
+}
+
+.userName {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.dialogsTitle {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+.dilaogsInfoWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lastMessage {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.lastMessagesCount {
+    color: white;
+    background-color: #8378db;
+    border-radius:40%;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    height: 25px;
+    padding-left: 7px;
+}
+
+.lastMessageParagraph {
+    margin-top: 0;
+    height: 5px;
+}
