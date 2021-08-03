@@ -6,7 +6,7 @@ import {
   Link
 } from "react-router-dom";
 import './App.css';
-import { LoginPage } from './Components/LoginPage/LoginPage';
+import { LoginPage } from './Containers/LoginPage/LoginPage';
 
 function App() {
   return (
