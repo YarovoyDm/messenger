@@ -1,0 +1,36 @@
+.loginPage{
+    height: 100vh;
+    width: 100%;
+    background: #212121;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.telegramLogo{
+    width: 160px;
+    height: 160px;
+    margin-bottom: 2.5rem;
+}
+
+.title{
+    font-size: 2rem;
+    line-height: 1.5;
+    color: white;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+.subTitle{
+    font-size: 1rem;
+    margin-bottom: 3rem;
+    color: #898989;
+    width: 360px;
+    text-align: center;
+}
