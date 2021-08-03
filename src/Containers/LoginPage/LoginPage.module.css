@@ -34,3 +34,55 @@
     width: 360px;
     text-align: center;
 }
+
+.loginInputs{
+    width: 336px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid 1px #5b5b5a;
+    background: #212121;
+    cursor: pointer;
+    padding: 12px;
+    outline: none;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.loginInputs:hover{
+    border: solid 1px #8378db;
+}
+
+.checkboxWrapper{
+    display: flex;
+    width: 336px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.checkboxWrapper input{
+    margin-right: 30px;
+    width: 18px;
+    height: 18px;
+}
+
+.checkboxWrapper div{
+    color: white;
+    cursor: pointer;
+}
+
+.qrCodeButton{
+    cursor: pointer;
+    width: 350px;
+    height: 60px;
+    color: #8378db;
+    background: #212121;
+    border: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.qrCodeButton:hover{
+    background: #242b2e;
+}
