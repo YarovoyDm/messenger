@@ -1,0 +1,92 @@
+.settingsPage{
+    width: 360px;
+    height: 100vh;
+    padding: 10px 25px;
+    background: #222222;
+}
+
+.userInfoPhoto{
+    background-image: url('../../images/userPhoto.jpeg');
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+    background-position-x: -25px;
+    background-position-y: -10px;
+    margin-bottom: 30px;
+}
+
+.settingHeader{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userInfoName{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.userInfoPhone{
+    color: #868e96;
+    font-size: 14px;
+}
+
+.settingsUserInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.settingHeaderTitle{
+    color: white;
+    font-size: 22px;
+}
+
+.settingsHeaderBack{
+    width: 44px;
+    height: 44px;
+    border-radius: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.settingsHeaderBack svg{
+    width: 15px;
+    height: 15px;
+    transform: rotate(180deg);
+}
+
+.settingsHeaderBack svg {
+    fill: #aaaaaa;
+}
+
+.settingsHeaderBack:hover{
+    background: #272727;
+}
+
+.settingHeaderMenu{
+    width: 44px;
+    height: 44px;
+    border-radius: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.settingHeaderMenu svg{
+    width: 15px;
+    height: 15px;
+}
+
+.settingHeaderMenu:hover{
+    background: #272727;
+}
+
+.settingHeaderMenu svg{
+    fill:#aaaaaa;
+}
